@@ -29,7 +29,7 @@ class AnswerType():
 
 
 	def generate_answer_type(self):
-		return ["OPEN"]
+		# return ["OPEN"]
 		if self.tokens[0] == "who" or self.tokens[0] == "whom":
 				return ["PERSON", "ORGANIZATION"]
 			
